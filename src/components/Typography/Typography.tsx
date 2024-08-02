@@ -1,6 +1,6 @@
-import { TextColorMap, type Color } from "@/lib/types/theme";
+import type { Color } from "@/lib/types/theme";
 import type { Font, TailwindTextSize } from "@/lib/types/typography";
-import { Fonts } from "@/lib/types/typography";
+import { Fonts, TextColorMap } from "@/lib/types/typography";
 import { cn } from "@/lib/utils";
 import React from "react";
 
