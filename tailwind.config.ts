@@ -19,6 +19,7 @@ const config = {
     },
     extend: {
       colors: {
+        mahagony: 'var(--mahagony)',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -72,9 +73,10 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      gridTemplateColumns: {
-        seasonListSm: "repeat(3, minmax(0, 230px))",
-        seasonListLg: "repeat(4, minmax(0, 230px))",
+      fontFamily: {
+        spaceGrotesk: ["var(--font-space-grotesk)"],
+        skModernist: ["var(--font-sk-modernist)"],
+        wildWorld: ["var(--font-wild-world)"],
       },
     },
   },
